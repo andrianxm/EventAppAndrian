@@ -1,0 +1,18 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.MyDicodingEventApp" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">@color/dark_1</item>
+        <item name="colorOnPrimary">@color/md_theme_light_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/md_theme_dark_onPrimaryContainer</item>
+
+        <item name="colorSecondary">@color/white</item>
+        <item name="colorOnSecondary">@color/md_theme_light_onSecondary</item>
+        <item name="colorSecondaryContainer">#802D3E50</item> //buat status color
+        <item name="colorOnSecondaryContainer">@color/md_theme_light_onSecondaryContainer</item>
+
+        <item name="colorSurface">#BFEEEEEE</item>
+        <item name="colorOnSurface">@color/white</item>
+        <item name="toolbarSurfaceStyle">@style/AppTheme.AppBarOverlay</item>
+        <item name="bottomNavigationStyle">@style/Widget.App.BottomNavigationView</item>//warna icon navbottom
+    </style>
+</resources>

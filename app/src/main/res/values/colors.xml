@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="md_theme_light_onPrimary">#FFFFFF</color>
+    <color name="dark_1">#2d3e50</color>
+    <color name="dark">#3f3f46</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="light_pink">#ff5483</color>
+    <color name="shadow_ambient">#000000</color>
+    <color name="shadow_spot">#150D0D</color>
+
+    <color name="md_theme_light_onSecondary">#FFFFFF</color>
+    <color name="md_theme_light_onSecondaryContainer">#1D192B</color>
+
+</resources>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">My Dicoding Event App</string>
+    <string name="title_upcoming">Upcoming</string>
+    <string name="title_home">Home</string>
+    <string name="searchbar_hint">Masukkan kata</string>
+    <string name="title_finished">Finished</string>
+    <string name="kuota">Sisa Kuota: ???</string>
+    <string name="ownername">oleh: ???</string>
+    <string name="title">Tittle dimuat…</string>
+    <string name="description_title">Acara ini sepenuhnya GRATIS dan akan diselenggarakan hari Jumat, 11 Oktober 2024 pukul 16.00 – 17.00 WIB Live di YouTube</string>
+    <string name="back">back</string>
+    <string name="register">REGISTER</string>
+    <string name="contoh_desc">sedang memuat deskripsi…</string>
+    <string name="deskripsi">DESKRIPSI</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="action_settings">Settings</string>
+
+    <string name="beginTime">waktu acara: ???</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="theme_mode">Theme Mode</string>
+    <string name="bookmark">bookmark</string>
+    <string name="Favorite">Favorite</string>
+    <string name="title_favorite">Favorite Event List</string>
+    <string name="title_setting">Setting</string>
+</resources>

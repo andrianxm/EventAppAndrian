@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_upcoming"
+        android:name="com.andrian.mydicodingeventapp.ui.upcoming.UpcomingFragment"
+        android:label="@string/title_upcoming"
+        android:gravity="center"
+        tools:layout="@layout/fragment_upcoming" >
+        <action
+            android:id="@+id/action_navigation_upcoming_to_navigation_home"
+            app:destination="@id/navigation_home" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.andrian.mydicodingeventapp.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        app:popUpTo="@id/navigation_home"
+        app:popUpToInclusive="true"
+        android:gravity="center"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_finished"
+        android:name="com.andrian.mydicodingeventapp.ui.finished.FinishedFragment"
+        android:label="@string/title_finished"
+        android:gravity="center"
+        tools:layout="@layout/fragment_finished" >
+        <action
+            android:id="@+id/action_navigation_finished_to_navigation_home"
+            app:destination="@id/navigation_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_setting"
+        android:name="com.andrian.mydicodingeventapp.ui.setting.SettingFragment"
+        android:label="@string/title_setting"
+        tools:layout="@layout/fragment_setting" >
+        <action
+            android:id="@+id/action_settingFragment_to_navigation_home"
+            app:destination="@id/navigation_home" />
+    </fragment>
+</navigation>
